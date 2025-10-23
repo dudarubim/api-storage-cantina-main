@@ -7,78 +7,72 @@
       "senha": "senha123"
     }
   ],
-  "pratos": [
+  "pratos":[
+    [
   {
-     "id_prato": 100,
-    "dia": "2025-06-29T00:00:00.000-03:00",
+    "id_usuario":1,
+    "id_prato":201,
+    "data": "2025-10-23T00:00:00-03:00",
+    "turno": "integral",
+    "refeicao": {
+      "titulo": "Almoço",
+      "horario": "11:20 - 12:30",
+      "itens": ["Arroz", "Feijão", "Frango grelhado com legumes"],
+      "bebida": "Suco de Laranja",
+      "img": ["./img/comida.png", "./img/suco.png"]
+    },
+    "lanche": {
+      "titulo": "Café da Tarde",
+      "horario": "14:50 - 15:15",
+      "itens": ["Bolo de Chocolate"],
+      "bebida": "Suco de Graviola",
+      "img": ["./img/boloo.png"]
+    }
+  },
+  {
+    "id_usuario":1,
+    "id_prato":202,
+    "data": "2025-10-23T00:00:00-03:00",
+    "turno": "manhã",
+    "refeicao": {
+      "titulo": "Almoço",
+      "horario": "09:30 - 09:45",
+      "itens": ["Arroz", "Feijão", "Frango grelhado com legumes"],
+      "bebida": "Suco de Laranja",
+      "img": ["./img/comida.png", "./img/suco.png"]
+    }
+  },
+  {
+    "id_usuario":1,
+    "id_prato":203,
+    "data": "2025-10-23T00:00:00-03:00",
     "turno": "tarde",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
+    "refeicao": {
+      "titulo": "Merenda",
+      "horario": "15:00 - 15:15",
+      "itens": ["Arroz", "Feijão", "Frango grelhado com legumes"],
+      "bebida": "Suco de Laranja",
+      "img": ["./img/comida.png", "./img/suco.png"]
+    }
   },
   {
-     "id_prato": 101,
-    "dia": "2025-06-30T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 102,
-    "dia": "2025-07-01T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 103,
-    "dia": "2025-07-02T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 104,
-    "dia": "2025-07-03T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 105,
-    "dia": "2025-07-04T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-    {
-     "id_prato": 106,
-    "dia": "2025-07-05T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
+    "id_usuario":1,
+    "id_prato":204,
+    "data": "2025-10-23T00:00:00-03:00",
+    "turno": "noturno",
+    "refeicao": {
+      "titulo": "Jantar",
+      "horario": "20:30 - 20:45",
+      "itens": ["Arroz", "Feijão", "Frango grelhado com legumes"],
+      "bebida": "Suco de Laranja",
+      "img": ["./img/comida.png", "./img/suco.png"]
+    }
   }
-],
+]
+
+  ],
+
+
   "votacao": [
   {
     "id_voto": 1,
