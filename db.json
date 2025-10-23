@@ -7,7 +7,7 @@
       "senha": "senha123"
     }
   ],
-  "pratos":[
+  "pratos":
     [
   {
     "id_usuario":1,
@@ -67,10 +67,7 @@
       "bebida": "Suco de Laranja",
       "img": ["./img/comida.png", "./img/suco.png"]
     }
-  }
-]
-
-  ],
+  }  ],
 
 
   "votacao": [
